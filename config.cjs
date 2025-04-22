@@ -4,11 +4,11 @@ require("dotenv").config();
 
 const config = {
   // Session & prefix
-  SESSION_ID: process.env.SESSION_ID || "JOEL~XMD~WZj0KrAR",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "JOEL~XMD~NehRpwFY",
+  PREFIX: process.env.PREFIX || ',',
 
   // Branding & menu captions
-  BOT_NAME: process.env.BOT_NAME || "ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ ᴠ¹⁰",
+  BOT_NAME: process.env.BOT_NAME || "DÉMONIAQUE",
   BOT: process.env.BOT || "hello 👋",
   NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\| joel",
   CAPTION: process.env.CAPTION || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ",
@@ -18,7 +18,7 @@ const config = {
   AUTO_BIO: process.env.AUTO_BIO !== undefined ? process.env.AUTO_BIO === 'true' : true,
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT !== undefined ? process.env.AUTO_STATUS_REACT === 'true' : true,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
-  AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
+  AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'false' : false,
   AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : false,
   AUTO_REACT: process.env.AUTO_REACT !== undefined ? process.env.AUTO_REACT === 'true' : false,
   AUTO_STICKER: process.env.AUTO_STICKER !== undefined ? process.env.AUTO_STICKER === 'true' : false,
@@ -44,9 +44,9 @@ const config = {
   // General bot settings
   MODE: process.env.MODE || "public",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "12345678901",
-  OWNER_NAME: process.env.OWNER_NAME || "ʟᴏʀᴅ ᴊᴏᴇʟ",
-  OWNER_NUMBER: process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',') : "255781144539",
-  SUDO_NUMBER: process.env.SUDO_NUMBER ? process.env.SUDO_NUMBER.split(',') : ["255781144539"],
+  OWNER_NAME: process.env.OWNER_NAME || "YUSUKE PDG",
+  OWNER_NUMBER: process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(',') : "509336168",
+  SUDO_NUMBER: process.env.SUDO_NUMBER ? process.env.SUDO_NUMBER.split(',') : ["509336168"],
 
   // API keys
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
